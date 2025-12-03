@@ -29,7 +29,7 @@ It allows you to send messages with raw SOAP XML and logs both request and respo
 ## Installation
 
 ```bash
-npm install soapasanaksmsjs
+npm install soap-asanak-sms
 ```
 
 Or clone the repository:
@@ -59,12 +59,19 @@ The library will automatically load `.env` from the current folder or parent dir
 
 ## Usage
 
+### Using
+
+```javascript
+const AsanakSms = require("soap-asanak-sms");
+
+const sms = new AsanakSms({});
+```
+
 ### Import and Initialize
 
 ```javascript
 const AsanakSms = require("./lib/AsanakSms");
 
-// Create an instance
 const sms = new AsanakSms({});
 ```
 
