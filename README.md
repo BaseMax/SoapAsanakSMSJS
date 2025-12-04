@@ -1,7 +1,8 @@
 # Soap Asanak SMS JavaScript
 
 **SoapAsanakSMSJS** is a Node.js library for sending SMS messages via the Asanak SOAP SMS gateway.
-It allows you to send messages with raw SOAP XML and logs both request and response for debugging. Credentials and configuration can be managed through a `.env` file.
+
+It allows you to send messages with raw SOAP XML and logs both request and response for debugging. Credentials and configuration can be managed through environment variables.
 
 ---
 
