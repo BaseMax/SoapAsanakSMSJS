@@ -1,6 +1,6 @@
 {
   "main": "test.js",
   "dependencies": {
-    "soap-asanak-sms": "^1.0.6"
+    "soap-asanak-sms": "^1.0.7"
   }
 }
